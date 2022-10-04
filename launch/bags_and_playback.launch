@@ -5,7 +5,7 @@
         <arg name="package_path" default="$(find bags_and_playback)" />
         <arg name="use_xacro" value="true"/>
         <arg name="file" value="$(find bags_and_playback)/urdf/hardware.xacro"/>
-        <arg name="use_gui" value="true"/>
+        <arg name="use_gui" value="false"/>
         <arg name="use_robot_state_publisher" value="true"/>
     </include>
 
