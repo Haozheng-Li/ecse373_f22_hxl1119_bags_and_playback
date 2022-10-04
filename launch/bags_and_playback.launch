@@ -12,4 +12,5 @@
     </include>
 
     <node pkg="rosbag" type="play" name="rosbag" args="$(arg bag_path) /tf_trajectory:=/tf --clock"/>
+    <node pkg="map_server" type="map_server" name="map_server" args="$(find maps_glennan)/maps/glennan5_map.yaml"/>
 </launch>
